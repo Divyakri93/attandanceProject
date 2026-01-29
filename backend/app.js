@@ -78,7 +78,7 @@ import chatRoutes from './routes/chatRoutes.js';
 app.use('/api/students', studentRoutes); // Handles /api/students/...
 app.use('/api/auth', authRoutes);        // Handles /api/auth/...
 app.use('/api/parent', parentRoutes);
-app.use('/api/chat', chatRoutes);        // NEW CHAT ROUTE
+app.use('/api/chat', chatRoutes);        
 
 // SIH UPGRADE: New Staff Routes
 // NEW: Principal Dashboard Routes
